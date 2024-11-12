@@ -1,17 +1,17 @@
-🎬📊 Sentiment Analysis on IMDb Reviews
+#🎬📊 Sentiment Analysis on IMDb Reviews
 
-📄 Project Overview
+##📄 Project Overview
 
 This project focuses on building a Sentiment Analysis model to classify IMDb movie reviews as either positive or negative. Using Natural Language Processing (NLP) techniques, we analyze the textual data to predict the sentiment behind movie reviews. The project was completed as part of a guided learning course on Coursera, with enhancements and custom modifications for better understanding and visualization.
 
-🚀 Objectives
+##🚀 Objectives
 
 Extract insights from IMDb movie reviews and determine if the sentiment is positive or negative.
 Implement various text preprocessing techniques to clean and prepare the data.
 Build and evaluate models using different feature extraction methods like Bag-of-Words and TF-IDF.
 Visualize the data distribution, word frequencies, and model performance using matplotlib and seaborn.
 
-📊 Key Features
+##📊 Key Features
 
 Data Cleaning & Preprocessing: Removal of noise, punctuation, stopwords, and tokenization.
 Feature Engineering: Implementation of Bag-of-Words and TF-IDF to transform text into numerical features.
