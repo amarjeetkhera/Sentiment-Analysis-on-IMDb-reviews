@@ -18,13 +18,13 @@ Feature Engineering: Implementation of Bag-of-Words and TF-IDF to transform text
 Model Training: Trained a Logistic Regression classifier to predict the sentiment of IMDb reviews.
 Data Visualization: Visualized class distribution, review length, word clouds, n-grams, and model performance (confusion matrix, precision-recall, and ROC curves).
 
-🗃️ Dataset
+## 🗃️ Dataset
 
-The dataset used in this project is the IMDb Movie Reviews Dataset, which contains 50,000 reviews labeled as either positive or negative. The dataset can be downloaded from the following sources:
+The dataset used in this project is the IMDb Movie Reviews Dataset, which contains 50,000 reviews labeled as either positive or negative. The dataset can be downloaded from the following source:
 
-Kaggle
+Kaggle: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 Python: Core programming language.
 Jupyter Notebook: Development environment.
@@ -35,17 +35,15 @@ matplotlib, seaborn: Data visualization.
 nltk: Natural Language Processing toolkit.
 wordcloud: Visualization of frequent words.
 
-📉 Exploratory Data Analysis (EDA)
+## 📉 Exploratory Data Analysis (EDA)
 
-We performed extensive EDA to understand the dataset:
+The following steps as part of the EDA were performed to understand the dataset:
 
 Class Distribution: Visualized the balance between positive and negative reviews.
 Word Clouds: Created separate word clouds for positive and negative reviews to highlight common words.
-N-gram Analysis: Analyzed frequently occurring bigrams and trigrams.
-Review Length Distribution: Explored the distribution of review lengths and their correlation with sentiment.
 TF-IDF Analysis: Visualized the most significant words based on their TF-IDF scores.
 
-🧑‍💻 Model Building & Evaluation
+## 🧑‍💻 Model Building & Evaluation
 
 Preprocessed the data using Bag-of-Words and TF-IDF vectorizers.
 Trained a Logistic Regression model to classify reviews as positive or negative.
@@ -54,7 +52,7 @@ Evaluated model performance using:
 -Precision-Recall Curve
 -ROC Curve
 
-📈 Results
+## 📈 Results
 
 The Logistic Regression model achieved:
 
