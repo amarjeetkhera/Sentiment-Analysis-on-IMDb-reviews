@@ -8,22 +8,6 @@ This project focuses on building a Sentiment Analysis model to classify IMDb mov
 
 The dataset used in this project is the IMDb Movie Reviews Dataset, sourced from Kaggle. This dataset is widely used for natural language processing (NLP) tasks, particularly for sentiment analysis. It contains a large collection of movie reviews from IMDb, along with their associated sentiment labels.
 
-### Dataset Summary
-
-Total Reviews: 50,000
-
-Labels: Binary (positive or negative sentiment)
-
-Data Split: 25,000 reviews for training and 25,000 reviews for testing
-
-Review Format: Text data containing user-submitted reviews
-
-Sentiment Labels:
-
-1 (positive sentiment)
-
-0 (negative sentiment)
-
 ### Column Information
 
 review: The text content of the movie review.
@@ -64,6 +48,22 @@ The reviews are varied in length and vocabulary, providing a realistic challenge
 The dataset used in this project is the IMDb Movie Reviews Dataset, which contains 50,000 reviews labeled as either positive or negative. The dataset can be downloaded from the following source:
 
 Kaggle: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+### Dataset Summary
+
+Total Reviews: 50,000
+
+Labels: Binary (positive or negative sentiment)
+
+Data Split: 25,000 reviews for training and 25,000 reviews for testing
+
+Review Format: Text data containing user-submitted reviews
+
+Sentiment Labels:
+
+1 (positive sentiment)
+
+0 (negative sentiment)
 
 ## 🛠️ Tools & Technologies
 
