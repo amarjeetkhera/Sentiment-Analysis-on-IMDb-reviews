@@ -66,7 +66,9 @@ Trained a Logistic Regression model to classify reviews as positive or negative.
 Evaluated model performance using:
 
 -Confusion Matrix
+
 -Precision-Recall Curve
+
 -ROC Curve
 
 ## 📈 Results
