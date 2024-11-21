@@ -2,7 +2,7 @@
 
 ## 📄 Project Overview
 
-This project focuses on building a Sentiment Analysis model to classify IMDb movie reviews as either positive or negative. Using Natural Language Processing (NLP) techniques, we analyze the textual data to predict the sentiment behind movie reviews. The project was completed as part of a guided learning course on Coursera, with enhancements and custom modifications for better understanding and visualization.
+This project focuses on building a Sentiment Analysis model to classify IMDb movie reviews as either positive or negative. Using Natural Language Processing (NLP) techniques, we analyze the textual data to predict the sentiment behind movie reviews. The concepts and learnings gained from this project form the basic building-block for understanding more complex Generative AI models, whose implementation in the future projects.
 
 ## 📂 Description
 
