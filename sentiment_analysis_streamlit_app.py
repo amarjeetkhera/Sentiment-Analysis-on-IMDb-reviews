@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import streamlit as st
-import joblib
 
 # Load the saved model and vectorizer
 model_file = joblib.load("logistic_regression_tfidf.pkl")
