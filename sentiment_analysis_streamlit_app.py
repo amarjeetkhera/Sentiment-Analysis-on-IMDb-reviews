@@ -11,8 +11,8 @@ import streamlit as st
 import joblib
 
 # Load the saved model and vectorizer
-model_file = joblib.load("/content/logistic_regression_tfidf.pkl")
-vec_file = joblib.load("/content/tfidf_vectorizer.pkl")
+model_file = joblib.load("logistic_regression_tfidf.pkl")
+vec_file = joblib.load("tfidf_vectorizer.pkl")
 
 # Streamlit app
 st.title("Sentiment Analysis App")
