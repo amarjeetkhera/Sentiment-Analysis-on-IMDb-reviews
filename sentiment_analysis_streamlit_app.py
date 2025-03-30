@@ -27,3 +27,17 @@ if st.button("Analyze Sentiment"):
         st.write(f"Sentiment: **{sentiment}**")
     else:
         st.write("Please enter a review!")
+# Footer
+st.markdown("---")
+st.markdown("""
+<style>
+    .footer {
+        text-align: center;
+        padding: 10px;
+        color: gray;
+    }
+</style>
+<div class="footer">
+    Model: Logistic Regression | Made with Streamlit by Amarjeet Khera
+</div>
+""", unsafe_allow_html=True)
