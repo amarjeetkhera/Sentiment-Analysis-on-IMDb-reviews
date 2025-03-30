@@ -113,3 +113,24 @@ Precision: 87%
 Recall: 89%
 
 F1-Score: 88%
+
+## 🚀 Deployment
+
+The trained Logistic Regression model was deployed as a web application using Streamlit. This allows users to input their own IMDb movie reviews and receive real-time sentiment predictions.
+
+**Streamlit App Link:** https://sentiment-analysis-on-imdb-reviews-7zkvymoemaji92rpqqokxk.streamlit.app
+
+**Key Features of the Streamlit App:**
+
+-   Simple and user-friendly interface for inputting movie reviews.
+-   Real-time sentiment prediction (positive or negative).
+-   Clear display of the predicted sentiment.
+
+**How to Use:**
+
+1.  Visit the Streamlit app link.
+2.  Enter your IMDb movie review in the provided text area.
+3.  Click the "Analyze Sentiment" button.
+4.  View the predicted sentiment displayed on the screen.
+
+This deployment showcases the practical application of the sentiment analysis model, making it accessible for real-world use.
