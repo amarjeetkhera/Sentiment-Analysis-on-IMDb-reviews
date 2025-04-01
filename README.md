@@ -1,10 +1,10 @@
-# 🎬 Sentiment Analysis on IMDb Reviews
+# Sentiment Analysis on IMDb Reviews
 
-## 📄 Project Overview
+## Project Overview
 
 This project focuses on building a Sentiment Analysis model to classify IMDb movie reviews as either positive or negative. Using Natural Language Processing (NLP) techniques, we analyze the textual data to predict the sentiment behind movie reviews. The concepts covered in this project form the basic building-block for understanding more complex Generative AI models, whose implementation will be covered in other projects.
 
-## 📂 Description
+## Description
 
 The dataset used in this project is the IMDb Movie Reviews Dataset, sourced from Kaggle. This dataset is widely used for natural language processing (NLP) tasks, particularly for sentiment analysis. It contains a large collection of movie reviews from IMDb, along with their associated sentiment labels. The dataset can be downloaded from the following source:
 
@@ -41,54 +41,7 @@ This dataset is ideal for sentiment analysis projects because:
 It provides a balanced set of positive and negative reviews, making it perfect for training machine learning models.
 The reviews are varied in length and vocabulary, providing a realistic challenge for text processing and model training.
 
-## 🚀 Objectives
-
--Extract insights from IMDb movie reviews and determine if the sentiment is positive or negative.
-
--Implement various text preprocessing techniques to clean and prepare the data.
-
--Build and evaluate models using different feature extraction methods like Bag-of-Words and TF-IDF.
-
--Visualize the data distribution, word frequencies, and model performance using matplotlib and seaborn.
-
-## 📊 Key Features
-
--Data Cleaning & Preprocessing: Removal of noise, punctuation, stopwords, and tokenization.
-
--Feature Engineering: Implementation of Bag-of-Words and TF-IDF to transform text into numerical features.
-
--Model Training: Trained a Logistic Regression classifier to predict the sentiment of IMDb reviews.
-
--Data Visualization: Visualized class distribution, review length, word clouds, n-grams, and model performance (confusion matrix, precision-recall, and ROC curves).
-
-## 🛠️ Tools & Technologies
-
-Python: Core programming language.
-
-Jupyter Notebook: Development environment.
-
-### Libraries:
-pandas, numpy: Data manipulation and analysis.
-
-scikit-learn: Model building, feature extraction, and evaluation.
-
-matplotlib, seaborn: Data visualization.
-
-nltk: Natural Language Processing toolkit.
-
-wordcloud: Visualization of frequent words.
-
-## 📉 Exploratory Data Analysis (EDA)
-
-The following steps as part of the EDA were performed to understand the dataset:
-
--Class Distribution: Visualized the balance between positive and negative reviews.
-
--Word Clouds: Created separate word clouds for positive and negative reviews to highlight common words.
-
--TF-IDF Analysis: Visualized the most significant words based on their TF-IDF scores.
-
-## 🧑‍💻 Model Building & Evaluation
+## Model Building & Evaluation
 
 Preprocessed the data using Bag-of-Words and TF-IDF vectorizers.
 
@@ -102,7 +55,7 @@ Evaluated model performance using:
 
 -ROC Curve
 
-## 📈 Results
+## Results
 
 The Logistic Regression model achieved:
 
@@ -114,7 +67,7 @@ Recall: 89%
 
 F1-Score: 88%
 
-## 🚀 Deployment
+## Deployment
 
 The trained Logistic Regression model was deployed as a web application using Streamlit. This allows users to input their own IMDb movie reviews and receive real-time sentiment predictions.
 
@@ -133,11 +86,9 @@ The trained Logistic Regression model was deployed as a web application using St
 3.  Click the "Analyze Sentiment" button.
 4.  View the predicted sentiment displayed on the screen.
 
-## 🛍️ Real-World Application: Product Review Analysis
+## Real-World Use-Case: Product Performance Analysis
 
 Beyond movie reviews, this sentiment analysis model can be effectively applied to understand customer feedback on e-commerce platforms like Amazon and Alibaba.
-
-**Use Case: Product Performance Analysis**
 
 By analyzing product reviews, businesses can:
 
