@@ -48,12 +48,6 @@ The trained Logistic Regression model was deployed as a web application using St
 
 **Streamlit App Link:** https://sentiment-analysis-on-imdb-reviews-7zkvymoemaji92rpqqokxk.streamlit.app
 
-**Key Features of the Streamlit App:**
-
--   Simple and user-friendly interface for inputting movie reviews.
--   Real-time sentiment prediction (positive or negative).
--   Clear display of the predicted sentiment.
-
 **How to Use:**
 
 1.  Visit the Streamlit app link.
