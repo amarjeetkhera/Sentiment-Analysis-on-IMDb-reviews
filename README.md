@@ -32,15 +32,15 @@ Sentiment Labels:
 
 ## Results
 
-The Logistic Regression model achieved:
+The TF-IDF Logistic Regression model achieved:
 
 Accuracy: 88%
 
-Precision: 87%
+Weighted Average Precision: 88%
 
-Recall: 89%
+Weighted Average Recall: 88%
 
-F1-Score: 88%
+Wighted Average F1-Score: 88%
 
 ## Deployment
 
