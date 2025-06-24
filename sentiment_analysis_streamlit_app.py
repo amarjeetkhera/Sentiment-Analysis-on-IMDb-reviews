@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Sentiment Analysis Streamlit_app.ipynb"""
 
 import streamlit as st
